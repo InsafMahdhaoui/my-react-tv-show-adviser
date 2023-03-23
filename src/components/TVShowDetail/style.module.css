@@ -1,0 +1,22 @@
+.title {
+  font-weight: 400;
+  font-size: 35px;
+}
+.rating_container {
+  display: flex; /*les elements de rating_container et a les classNames a l'interieur de raiting_container sont cotes a cotes*/
+}
+.rating {
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.overview:hover {
+  overflow-y: auto;
+} /*ce css s'ajoute seullement qu'on a a hover */
+.overview {
+  font-family: Roboto;
+  font-weight: 400;
+  height: 120px; /*qu'on desendre au dessous d'une certaine largeur on va vouloir scroller*/
+  font-size: 20px;
+  overflow-y: hidden; /*cacher la scrollbar par defaut*/
+  margin-top: 10px;
+}

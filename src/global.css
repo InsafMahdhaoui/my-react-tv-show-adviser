@@ -1,0 +1,16 @@
+body {
+  color: white; /*texte color in body*/
+  font-family: Maximum impact;
+}
+/*styler nos scroll bar*/
+
+/*quant le scrollbar il ne va pas bouger */
+::-webkit-scrollbar {
+  background: transparent;
+}
+/*quant le scrollbar bouger */
+
+::-webkit-scrollbar-thumb:horizontal {
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 10px;
+}

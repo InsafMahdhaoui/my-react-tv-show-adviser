@@ -1,0 +1,15 @@
+.main_container {
+  display: flex;
+  height: 100vh;
+  padding: 25px;
+  flex-direction: column; /*modifier la direction d'allignemment sdes elements */
+}
+.header {
+  flex: 1;
+}
+.tv_show_details {
+  flex: 2;
+}
+.recommended_show {
+  flex: 1;
+}

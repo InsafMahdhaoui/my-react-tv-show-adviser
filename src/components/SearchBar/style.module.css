@@ -1,0 +1,19 @@
+.icon {
+  position: absolute;
+  margin-top: 7px;
+  margin-left: 15px;
+}
+.input {
+  border-radius: 30px;
+  background-color: #d9d9d96e;
+  height: 30px;
+  font-weight: 100;
+  font-size: 20px;
+  width: 140%;
+  color: white; /*couleur du texte dans la bar de recherche*/
+  border-color: transparent;
+  padding: 18px 18px 18px 50px;
+}
+.input::placeholder {
+  color: rgb(194, 194, 194, 194);
+}
